@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Java TableRow -->
+        <TableRow
+            android:id="@+id/javaRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="openUrl"
+            android:minHeight="64dp"> <!-- Adjusted height to 64dp -->
+
+            <TextView
+                android:text="Java"
+                android:padding="8dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="James Gosling"
+                android:padding="8dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="java.com"
+                android:padding="8dp"
+                android:layout_weight="1" />
+
+        </TableRow>
+
+        <!-- Python TableRow -->
+        <TableRow
+            android:id="@+id/pythonRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="openUrl"
+            android:minHeight="64dp"> <!-- Adjusted height to 64dp -->
+
+            <TextView
+                android:text="Python"
+                android:padding="8dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="Guido van Rossum"
+                android:padding="8dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="python.com"
+                android:padding="8dp"
+                android:layout_weight="1" />
+
+        </TableRow>
+
+        <!-- C++ TableRow -->
+        <TableRow
+            android:id="@+id/cppRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="openUrl"
+            android:minHeight="64dp"> <!-- Adjusted height to 64dp -->
+
+            <TextView
+                android:text="C++"
+                android:padding="8dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="Bjarne Stroustrup"
+                android:padding="8dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="cplusplus.com"
+                android:padding="8dp"
+                android:layout_weight="1" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

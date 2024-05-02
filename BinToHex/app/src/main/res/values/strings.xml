@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BinToHex</string>
+    <string name="select_conversion_type">Select Conversion Type</string>
+    <string-array name="conversion_types">
+        <item>Binary</item>
+        <item>Hexadecimal</item>
+    </string-array>
+</resources>

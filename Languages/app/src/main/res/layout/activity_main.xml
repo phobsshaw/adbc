@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/main"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnjava"
+        android:layout_width="129dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="212dp"
+        android:text="Java"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="141dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btncpp"
+        android:layout_width="127dp"
+        android:layout_height="52dp"
+        android:text="C++"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="290dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnpython"
+        android:layout_width="131dp"
+        android:layout_height="55dp"
+        android:text="Python"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="370dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnjavascript"
+        android:layout_width="131dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="236dp"
+        android:text="JavaScript"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="141dp"
+        tools:ignore="MissingConstraints" />
+</LinearLayout>
